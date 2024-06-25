@@ -15,7 +15,8 @@ public class optionalClass {
 		System.out.println("1= "+c.isEmpty());
 		System.out.println("1= "+c.orElse(b));
 		System.out.println(c.hashCode());
-		System.out.println(c1.toString());		
+		System.out.println(c1.toString());
+		System.out.println(c.hashCode());
 		try {
 		System.out.println(c.orElseThrow(()->new NullPointerException()));
 		}
