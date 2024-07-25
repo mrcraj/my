@@ -30,4 +30,12 @@ public class MethodRefernceTask {
 			return b;
 		}
 	}
+	public  String  findler(String a,String b) {
+		if(a.length()<b.length()) {
+			return a;
+		}
+		else {
+			return b;
+		}
+	}
 }
